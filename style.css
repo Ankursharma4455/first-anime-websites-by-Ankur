@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body
+{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: aliceblue;
+}
+.nav
+{
+  height: 100px;
+  width: 100%;
+  color: white;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 50px;
+  border-bottom: 1px solid gray;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+.nav-h1
+{
+  color: sienna;
+  font-size: 25px;
+}
+.option a
+{
+  text-decoration: none;
+  color: aliceblue;
+  margin-left: 50px;
+  font-size: 20px;
+}
+.option i
+{
+  margin-left: 45px;
+  font-size: 22px;
+}
+.herosection
+{
+  height: 500px;
+  width: 100%;
+  display: flex;
+  margin-top: 100px;
+  /* border-bottom: 1px solid gray; */
+}
+.hero-left
+{
+  height: 500px;
+  width: 50%;
+  padding-left: 50px;
+  padding-top: 150px;
+}
+.hero-para
+{
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.hero-h1
+{
+  font-size: 23px;
+  margin-bottom: 10px;
+}
+.hero-h1 span
+{
+  color: sienna;
+}
+.hero-btn
+{
+  margin-top: 40px;
+}
+.hero-btn button
+{
+  height:60px;
+  width: 40%;
+  background-color: sienna;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  font-size: 18px;
+  font-weight: 800;
+  cursor: pointer;
+}
+.hero-right
+{
+  height: 500px;
+  width: 50%;
+}
+.hero-right img
+{
+  height: 430px;
+  width: 55%;
+  background-size: cover;
+  margin-top: 40px;
+  margin-left: 170px;
+}
+.shops
+{
+  height: 100px;
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.shops-h1
+{
+  font-size: 30px;
+  /* border-bottom: 1px solid gray; */
+}
+.shops-h1 span
+{
+  color: sienna;
+}
+.shops-boxes
+{
+  height: 500px;
+  width:100%;
+  display: flex;
+  justify-content: space-around;
+}
+.shop-box-1
+{
+  height: 450px;
+  width: 280px;
+  background-color: white;
+  border-radius: 15px;
+}
+.image-1
+{
+  height: 280px;
+  width: 100%;
+  border-radius: 10px;
+  background-image: url("https://pngimg.com/uploads/anime_girl/anime_girl_PNG46.png");
+  background-size: cover;
+}
+.shop-box-1-h3
+{
+  color: black;
+  text-align: center;
+  font-size: 22px;
+  margin-top: 18px;
+}
+.shop-box-1-icon
+{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+  color: rgb(255, 162, 0);
+}
+.shop-box-1-btn button
+{
+  height: 50px;
+  width: 50%;
+  margin-left: 70px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: sienna;
+  font-size: 18px;
+  font-weight: 900;
+  cursor: pointer;
+
+}
+.shop-box-2
+{
+  height: 450px;
+  width: 280px;
+  background-color:white;
+  border-radius: 15px;
+}
+.image-2
+{
+  height: 280px;
+  width: 100%;
+  border-radius: 10px;
+  background-image: url("https://pngimg.com/d/anime_girl_PNG31.png");
+  background-size: cover;
+}
+.shop-box-2-h3
+{
+  color: black;
+  text-align: center;
+  font-size: 22px;
+  margin-top: 15px;
+}
+.shop-box-2-icon
+{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+  color: rgb(255, 162, 0);
+}
+.shop-box-2-btn button
+{
+  height: 50px;
+  width: 50%;
+  margin-left: 70px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: sienna;
+  font-size: 18px;
+  font-weight: 900;
+  cursor: pointer;
+}
+.shop-box-3
+{
+  height: 450px;
+  width: 280px;
+  background-color: white;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.image-3
+{
+  height: 280px;
+  width: 100%;
+  border-radius: 10px;
+  background-image: url("https://www.pngplay.com/wp-content/uploads/12/Kawaii-Anime-Girl-Transparent-PNG.png");
+  background-size: cover;
+}
+.shop-box-3-h3
+{
+  color: black;
+  text-align: center;
+  font-size: 22px;
+  margin-top: 15px;
+}
+.shop-box-3-icon
+{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+  color: rgb(255, 162, 0);
+}
+.shop-box-3-btn button
+{
+  height: 50px;
+  width: 50%;
+  margin-left: 70px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: sienna;
+  font-size: 18px;
+  font-weight: 900;
+  cursor: pointer;
+}
+.shop-girl
+{
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.shops-boxes-2
+{
+  height: 470px;
+  width:100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+
+}
+.shop-box-4
+{
+  height: 450px;
+  width: 280px;
+  background-color: white;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.image-4
+{
+  height: 280px;
+  width: 100%;
+  border-radius: 10px;
+  background-image: url("https://pngimg.com/uploads/anime_girl/anime_girl_PNG44.png");
+  background-size: cover;
+}
+.shop-box-4-h3
+{
+  color: black;
+  text-align: center;
+  font-size: 22px;
+  margin-top: 15px;
+}
+.shop-box-4-icon
+{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+  color: rgb(255, 162, 0);
+}
+.shop-box-4-btn button
+{
+  height: 50px;
+  width: 50%;
+  margin-top: 15px;
+  border-radius: 10px;
+  background-color: sienna;
+  font-size: 18px;
+  margin-left:67px;
+  font-weight: 900;
+  cursor: pointer;
+}
+.shop-box-5
+{
+  height: 450px;
+  width: 280px;
+  background-color: white;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.image-5
+{
+  height: 280px;
+  width: 100%;
+  border-radius: 10px;
+  background-image: url("https://pngimg.com/uploads/anime_girl/anime_girl_PNG37.png");
+  background-size: cover;
+}
+.shop-box-5-h3
+{
+  color: black;
+  text-align: center;
+  font-size: 22px;
+  margin-top: 15px;
+}
+.shop-box-5-icon
+{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+  color: rgb(255, 162, 0);
+}
+.shop-box-5-btn button
+{
+  height: 50px;
+  width: 50%;
+  margin-top: 15px;
+  border-radius: 10px;
+  background-color: sienna;
+  font-size: 18px;
+  margin-left:67px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.shop-box-6
+{
+  height: 450px;
+  width: 280px;
+  background-color: white;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.image-6
+{
+  height: 280px;
+  width: 100%;
+  border-radius: 10px;
+  background-image: url("https://pngimg.com/uploads/anime_girl/anime_girl_PNG96.png");
+  background-size: cover;
+}
+.shop-box-6-h3
+{
+  color: black;
+  text-align: center;
+  font-size: 22px;
+  margin-top: 15px;
+}
+.shop-box-6-icon
+{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+  color: rgb(255, 162, 0);
+}
+.shop-box-6-btn button
+{
+  height: 50px;
+  width: 50%;
+  margin-top: 15px;
+  border-radius: 10px;
+  background-color: sienna;
+  font-size: 18px;
+  margin-left:67px;
+  font-weight: 900;
+  cursor: pointer;
+}
